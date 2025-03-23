@@ -11,10 +11,9 @@
 (define-fungible-token nebula)
 
 ;; Token constants
-(define-constant TOKEN-MAX-SUPPLY u1000000000000000) ;; 1 trillion tokens
-(define-constant TOKEN-PRECISION u1000000) ;; 6 decimal places
+(define-constant TOKEN-MAX-SUPPLY u1000000000000000) 
+(define-constant TOKEN-PRECISION u1000000) 
 
-;; Error codes - Using a semantic naming convention with numeric codes
 (define-constant ACCESS-DENIED (err u9001))
 (define-constant BALANCE-TOO-LOW (err u9002))
 (define-constant INVALID-PARAMETER (err u9003))
